@@ -4,7 +4,7 @@
 
 ## 2. Structural Patterns
 
-## 3. Behavioral Patterns(행동 패턴)
+## [3. Behavioral Patterns(행동 패턴)](./Behavioral%20Patterns/)
 
 ### 3.1. Chain of Responsibility(책임 연쇄 패턴)
 
