@@ -1,4 +1,4 @@
-# 커맨드 패턴(Command Pattern)
+# 3.1 책임 연쇄(Chain of responsibility)
 
 ## Problem
 
