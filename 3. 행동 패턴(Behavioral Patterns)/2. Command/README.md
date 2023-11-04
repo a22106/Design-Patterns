@@ -1,4 +1,4 @@
-# Chain of Responsibility(책임 연쇄 패턴)
+# 커맨드 패턴(Command Pattern)
 
 ## Problem
 

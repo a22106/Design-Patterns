@@ -6,7 +6,7 @@
 
 ## [3. Behavioral Patterns(행동 패턴)](./Behavioral%20Patterns/)
 
-### 3.1. Chain of Responsibility(책임 연쇄 패턴)
+### [3.1. Chain of Responsibility(책임 연쇄 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/1.%20Chain%20of%20responsibility/)
 
 - 요청을 처리할 수 있는 객체를 연쇄적으로 연결해 놓고, 실제 요청을 처리할 객체를 만날 때까지 객체를 차례로 전달하는 패턴
 
