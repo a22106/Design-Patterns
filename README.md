@@ -1,99 +1,101 @@
 # Design-Patterns
 
-## [1. Creational Patterns(생성 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/)
 
-### [1.1. Factory Method(팩토리 메서드 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/1.1%20팩토리%20메서드(Factory%20Method)/)
+
+## 1. [Creational Patterns(생성 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/)
+
+### 1.1 [Factory Method(팩토리 메서드 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/1.1%20팩토리%20메서드(Factory%20Method)/)
 
 - 객체를 생성하기 위한 인터페이스를 정의하고, 인스턴스를 만들 클래스의 결정은 서브 클래스 쪽에서 내리는 패턴
 
-### [1.2. Abstract Factory(추상 팩토리 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/1.2%20추상%20팩토리(Abstract%20Factory)/)
+### 1.2 [Abstract Factory(추상 팩토리 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/1.2%20추상%20팩토리(Abstract%20Factory)/)
 
 - 서로 연관된, 또는 의존하는 객체를 구상 클래스를 지정하지 않고도 생성할 수 있는 패턴
 
-### [1.3. Builder(빌더 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/1.3%20빌더(Builder)/)
+### 1.3 [Builder(빌더 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/1.3%20빌더(Builder)/)
 
 - 복잡한 단계가 필요한 인스턴스 생성을 빌더 클래스에게 위임하여 동일한 생성 절차에서 서로 다른 표현 결과를 만들 수 있게 하는 패턴
 
-### [1.4. Prototype(프로토타입 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/1.4%20프로토타입(Prototype)/)
+### 1.4 [Prototype(프로토타입 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/1.4%20프로토타입(Prototype)/)
 
 - 생성할 객체들의 타입이 프로토타입인 인스턴스로부터 결정되도록 하며, 인스턴스는 새 객체를 만들기 위해 자신을 복제(clone)하게 된다.
 
-### [1.5. Singleton(싱글톤 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/1.5%20싱글톤(Singleton)/)
+### 1.5 [Singleton(싱글톤 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/1.5%20싱글톤(Singleton)/)
 
 - 어떤 클래스의 인스턴스는 오직 하나임을 보장하며, 이 인스턴스에 접근할 수 있는 전역적인 접촉점을 제공하는 패턴
 
 ## 2. [Structural Patterns(구조 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/)
 
-### [2.1. Adapter(어댑터 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.1%20어댑터(Adapter)/)
+### 2.1 [Adapter(어댑터 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.1%20어댑터(Adapter)/)
 
 - 호환성이 없는 인터페이스 때문에 함께 동작할 수 없는 클래스들을 함께 동작하도록 해주는 패턴
 
-### [2.2. Bridge(브리지 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.2%20브리지(Bridge)/)
+### 2.2 [Bridge(브리지 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.2%20브리지(Bridge)/)
 
 - 구현부에서 추상층을 분리하여 각자 독립적으로 변형할 수 있게 하는 패턴
 
-### [2.3. Composite(컴포지트 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.3%20컴포지트(Composite)/)
+### 2.3 [Composite(컴포지트 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.3%20컴포지트(Composite)/)
 
 - 객체들의 관계를 트리 구조로 구성하여 부분-전체 계층을 표현하는 패턴
 
-### [2.4. Decorator(데코레이터 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.4%20데코레이터(Decorator)/)
+### 2.4 [Decorator(데코레이터 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.4%20데코레이터(Decorator)/)
 
 - 객체에 추가적인 요건을 동적으로 첨가하며, 기능 확장이 필요할 때 서브 클래스 대신 쓸 수 있는 패턴
 
-### [2.5. Facade(퍼사드 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.5%20퍼사드(Facade)/)
+### 2.5 [Facade(퍼사드 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.5%20퍼사드(Facade)/)
 
 - 서브 시스템에 있는 인터페이스 집합에 대한 통합된 인터페이스를 제공하는 패턴
 
-### [2.6. Flyweight(플라이웨이트 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.6%20플라이웨이트(Flyweight)/)
+### 2.6 [Flyweight(플라이웨이트 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.6%20플라이웨이트(Flyweight)/)
 
 - 객체의 공유를 통해 많은 수의 작은 객체들을 효율적으로 지원하는 패턴
 
-### [2.7. Proxy(프록시 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.7%20프록시(Proxy)/)
+### 2.7 [Proxy(프록시 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.7%20프록시(Proxy)/)
 
 - 객체에 대한 접근을 제어하기 위한 대리인 또는 자리채움자를 제공하는 패턴
 
-## [3. Behavioral Patterns(행동 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/)
+## 3. [Behavioral Patterns(행동 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/)
 
-### [3.1. Chain of Responsibility(책임 연쇄 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.1%20책임%20연쇄(Chain%20of%20Responsibility)/)
+### 3.1 [Chain of Responsibility(책임 연쇄 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.1%20책임%20연쇄(Chain%20of%20Responsibility)/)
 
 - 요청을 처리할 수 있는 객체를 연쇄적으로 연결해 놓고, 실제 요청을 처리할 객체를 만날 때까지 객체를 차례로 전달하는 패턴
 
-### [3.2. Command(커맨드 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.2%20커맨드(Command)/)
+### 3.2 [Command(커맨드 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.2%20커맨드(Command)/)
 
 - 요청을 객체의 형태로 캡슐화하여 사용자가 보낸 요청을 나중에 이용할 수 있도록 매서드 이름, 매개변수 등 요청에 필요한 정보를 저장 또는 로깅, 취소할 수 있게 하는 패턴
 
-### [3.3. Interpreter(인터프리터 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.3%20인터프리터(Interpreter)/)
+### 3.3 [Interpreter(인터프리터 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.3%20인터프리터(Interpreter)/)
 
 - 언어의 문법을 정의하고, 해당 언어로 작성된 문장을 해석하는 해석기를 구현하는 패턴
 
-### [3.4. Iterator(반복자 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.4%20반복자(Iterator)/)
+### 3.4 [Iterator(반복자 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.4%20반복자(Iterator)/)
 
 - 컬렉션의 내부 구조를 노출하지 않고, 내부의 모든 항목에 접근할 수 있는 방법을 제공하는 패턴
 
-### [3.5. Mediator(중재자 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.5%20중재자(Mediator)/)
+### 3.5 [Mediator(중재자 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.5%20중재자(Mediator)/)
 
 - 객체 간의 복잡한 상호작용을 캡슐화하여 한 객체가 변경되어도 다른 객체에게는 영향을 주지 않도록 하는 패턴
 
-### [3.6. Memento(메멘토 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.6%20메멘토(Memento)/)
+### 3.6 [Memento(메멘토 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.6%20메멘토(Memento)/)
 
 - 객체의 상태를 저장하고, 이전 상태로 복구할 수 있도록 하는 패턴
 
-### [3.7. Observer(옵저버 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.7%20옵저버(Observer)/)
+### 3.7 [Observer(옵저버 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.7%20옵저버(Observer)/)
 
 - 객체 사이의 일 대 다의 의존 관계를 정의하여 어떤 객체의 상태가 변할 때 그 객체에 의존성을 가진 다른 객체들이 그 변화를 통지받고 자동으로 갱신될 수 있도록 하는 패턴
 
-### [3.8. State(상태 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.8%20상태(State)/)
+### 3.8 [State(상태 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.8%20상태(State)/)
 
 - 객체의 내부 상태에 따라 행위를 변경할 수 있도록 하는 패턴
 
-### [3.9. Strategy(전략 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.9%20전략(Strategy)/)
+### 3.9 [Strategy(전략 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.9%20전략(Strategy)/)
 
 - 행위를 클래스로 캡슐화하여 동적으로 행위를 자유롭게 바꿀 수 있도록 해주는 패턴
 
-### [3.10. Template Method(템플릿 메서드 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.10%20템플릿%20메서드(Template%20Method)/)
+### 3.10 [Template Method(템플릿 메서드 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.10%20템플릿%20메서드(Template%20Method)/)
 
 - 알고리즘의 구조를 메서드에 정의하고, 하위 클래스에서 알고리즘 구조의 변경없이 알고리즘을 재정의하는 패턴
 
-### [3.11. Visitor(방문자 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.11%20방문자(Visitor)/)
+### 3.11 [Visitor(방문자 패턴)](./3.%20행동%20패턴(Behavioral%20Patterns)/3.11%20방문자(Visitor)/)
 
 - 객체 구조를 이루는 각각의 요소에 대해 방문자 객체를 받아들이고, 방문자가 제공하는 동작을 수행하는 패턴
