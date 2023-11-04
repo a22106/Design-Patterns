@@ -1,6 +1,6 @@
 # Design-Patterns
 
-## 1. Creational Patterns
+## [1. Creational Patterns(생성 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/)
 
 ### [1.1. Factory Method(팩토리 메서드 패턴)](./1.%20생성%20패턴(Creational%20Patterns)/1.1%20팩토리%20메서드(Factory%20Method)/)
 
@@ -22,7 +22,7 @@
 
 - 어떤 클래스의 인스턴스는 오직 하나임을 보장하며, 이 인스턴스에 접근할 수 있는 전역적인 접촉점을 제공하는 패턴
 
-## 2. Structural Patterns
+## 2. [Structural Patterns(구조 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/)
 
 ### [2.1. Adapter(어댑터 패턴)](./2.%20구조%20패턴(Structural%20Patterns)/2.1%20어댑터(Adapter)/)
 

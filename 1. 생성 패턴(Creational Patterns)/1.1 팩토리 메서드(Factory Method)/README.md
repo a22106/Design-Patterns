@@ -10,3 +10,6 @@
 
 
 ## 구조
+
+![Alt text](image.png)
+
